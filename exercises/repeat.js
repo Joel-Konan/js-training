@@ -8,6 +8,18 @@
  *
  */
 
+ function repeat(charset, nb){
+    let repeat = charset;
+    if(nb === 0){
+        return '';
+    }else{
+        for(let i = 1; i < nb; i++){
+            charset += repeat;
+        }
+        return charset;
+    }
+ }
+
 //* Begin of tests
 const assert = require('assert')
 

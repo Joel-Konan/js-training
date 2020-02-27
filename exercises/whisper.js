@@ -7,9 +7,13 @@
  *
  */
 
+ function whisper(chaine){
+    let lowCase = chaine.toLowerCase();
+    return lowCase;
+ }
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(whisper('MYLANNE'), 'mylanne')
 // End of tests */

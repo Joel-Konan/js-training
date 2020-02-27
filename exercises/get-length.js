@@ -9,6 +9,11 @@
 
 // Your code :
 
+function getLength(tab){
+    return tab.length;
+}
+
+
 //* Begin of tests
 const assert = require('assert')
 

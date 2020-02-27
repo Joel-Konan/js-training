@@ -6,6 +6,10 @@
  *
  */
 
+ function words(chaine){
+     let splits = chaine.split(' ');
+     return splits;
+ }
 
 //* Begin of tests
 const assert = require('assert')
